@@ -1,0 +1,7 @@
+body {
+background-image: url("image/snake.jpg");
+background-repeat: no-repeat;
+background-position: top-center;
+flex: auto;
+background-size: cover;
+}
