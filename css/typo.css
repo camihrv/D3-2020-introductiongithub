@@ -4,33 +4,42 @@
 
 h4{ }
 
-h2 {
+section {
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 6em;
+}
+
+p {
     font-size: 1em;
     font-family: 'IM Fell Double Pica', serif;
     color: rgb(255, 255, 255);
     text-align: right;
     text-align: justify;
-    margin-left: 900px;
-    margin-top: 50px;
-    margin-right: 200px;
+    max-width: 320px
 }
 
 
 
-h1 {
+header {
   color: rgb(255, 255, 255);
   font-family: 'Romanesco', cursive;
   font-size: 5em;
-  margin-left: 800px;
-  margin-top:100px;
-
+  text-align: right;
+  text-align: justify;
+  display: flex;
+  justify-content: flex-end;
 }
 
-h3 {
+h1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
   font-size: 2em;
   color: rgb(255, 255, 255);
 font-family: 'Tangerine', cursive;
 text-align: right;
 text-align: justify;
-    margin-right: 200px;
-    margin-left: 900px;
+  justify-content: flex-end;
+}
